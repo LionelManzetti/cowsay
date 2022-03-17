@@ -1,7 +1,9 @@
-const name = 'Lionel';
-const campus = "Remote campus";
+const userInfo = {
+    name: "Lionel",
+    campus: "Remote"
+}
 
 module.exports = {
-    name: name,
-    campus: campus,
+    name: userInfo.name,
+    campus: userInfo.campus
 };
